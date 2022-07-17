@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="box" [ngStyle]="{'background-color':backgroundColor1, 'color':color1}" (mouseover)="overBox1()" (mouseout)="overBox1()">
+        <h1>Title 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse malesuada sem ac lorem vulputate sagittis. 
+            In congue sed dolor non euismod. Praesent facilisis cursus arcu, 
+            vitae semper lectus accumsan quis.
+        </p>
+    </div>
+    <div class="box" [ngStyle]="{'background-color':backgroundColor2, 'color':color2}" (mouseover)="overBox2()" (mouseout)="overBox2()">
+        <h1>Title 2</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse malesuada sem ac lorem vulputate sagittis. 
+            In congue sed dolor non euismod. Praesent facilisis cursus arcu, 
+            vitae semper lectus accumsan quis.
+        </p>
+    </div>
+    <div class="box" [ngStyle]="{'background-color':backgroundColor3, 'color':color3}" (mouseover)="overBox3()" (mouseout)="overBox3()">
+        <h1>Title 3</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse malesuada sem ac lorem vulputate sagittis. 
+            In congue sed dolor non euismod. Praesent facilisis cursus arcu, 
+            vitae semper lectus accumsan quis.
+        </p>
+    </div>
+</div>
+<div class="container">
+    <button class="button" (click)="swapColors()">Swap to Colorblind-Friendly Colors</button>
+</div>
+
